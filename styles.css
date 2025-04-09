@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url("images/Banner.webp"); /* Replace with the path to your image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    color: white; /* Change text color for better contrast */
+    padding: 60px 20px; /* Adds padding around the content */
+    text-align: center; /* Centers the text */
+}
+
+#hero h1, #hero p {
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add some padding around the text */
+}
+
+
+#videos {
+    padding: 50px;
+    text-align: center;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#about, #contact {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#created-by {
+    background-color: #333; /* Same as header for consistency */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#created-by h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+#created-by p {
+    margin: 0;
+    font-size: 18px;
+}
